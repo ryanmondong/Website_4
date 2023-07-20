@@ -14,9 +14,14 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
+    <script>
+        AOS.init();
+    </script>
     <nav class="navbar" style="background-color: #EEEEEE;">
         <div class="container">
             <a class="navbar-brand ms-2">All-in Eduspace</a>
@@ -29,18 +34,20 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="col-md-12 text-center">
-                    <h1 class="text-white text" style="font-family:Arial, Helvetica, sans-serif">Sign Up for a FREE
-                        Initial</h1>
-                    <h1 class="text-white text" Style="font-family:Arial, Helvetica, sans-serif;">Consultation!</h1>
-                    <div class="row justify-content-center mt-3">
-                        <div class="col-md-5">
-                            <div class="row">
-                                <div class="col-md-8 fs-4"><input type="email" class="form-control"
-                                        placeholder="Email address">
-                                </div>
-                                <div class="col-md-4 fs-4">
-                                    <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-success">Submit</button>
+                    <div data-aos="fade-up">
+                        <h1 class="text-white text" style="font-family:Arial, Helvetica, sans-serif">Sign Up for a FREE
+                            Initial</h1>
+                        <h1 class="text-white text" Style="font-family:Arial, Helvetica, sans-serif;">Consultation!</h1>
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-8 fs-4"><input type="email" class="form-control"
+                                            placeholder="Email address">
+                                    </div>
+                                    <div class="col-md-4 fs-4">
+                                        <div class="d-grid gap-2">
+                                            <button type="button" class="btn btn-success">Submit</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -56,36 +63,36 @@
                 <div class="col-md-12 text-center">
                     <div class="row row-cols-md-3 row-cols-1">
                         <div class="col mb-5">
-                            <!-- <div class="learn"> -->
-                            <img src="assets/img/aspire.png" height="70px" height="70px">
-                            <h1> Aspire </h1>
-                            <p class="lh-base">
-                                Explore students' passion & <br>
-                                interest through a <br>
-                                personalized mentorship
-                            </p>
-                            <!-- </div> -->
+                            <div data-aos="fade-right">
+                                <img src="assets/img/aspire.png" height="70px" height="70px">
+                                <h1> Aspire </h1>
+                                <p class="lh-base">
+                                    Explore students' passion & <br>
+                                    interest through a <br>
+                                    personalized mentorship
+                                </p>
+                            </div>
                         </div>
                         <div class="col mb-5">
-                            <!-- <div class="learn"> -->
-                            <img src="assets/img/learn.png" height="70px" height="70px">
-                            <h1> Learn </h1>
-                            <p class="lh-base"> Guide students to improve <br>
-                                academic performance & project <br>
-                                portfolio through experiential
-                                programs
-                            </p>
-                            <!-- </div> -->
+                            <div data-aos="fade-up" data-aos-anchor-placement="center">
+                                <img src="assets/img/learn.png" height="70px" height="70px">
+                                <h1> Learn </h1>
+                                <p class="lh-base"> Guide students to improve <br>
+                                    academic performance & project <br>
+                                    portfolio through experiential
+                                    programs
+                                </p>
+                            </div>
                         </div>
                         <div class="col mb-5">
-                            <!-- <div class="learn"> -->
-                            <img src="assets/img/lead.webp" height="70px" height="70px">
-                            <h1> Lead </h1>
-                            <p class="lh-base">
-                                place students at their best <br>
-                                best fit universities to <br>
-                                become future leaders </p>
-                            <!-- </div> -->
+                            <div data-aos="fade-left">
+                                <img src="assets/img/lead.webp" height="70px" height="70px">
+                                <h1> Lead </h1>
+                                <p class="lh-base">
+                                    place students at their best <br>
+                                    best fit universities to <br>
+                                    become future leaders </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -98,30 +105,38 @@
         <div class="row align-items-center">
             <div class='col-md-6 p-5 order-md-1 order-2'>
                 <div class="p-5">
-                    <h1 class="text-start"> Admissions Mentoring </h1>
-                    <p class="lh-base">
-                        We offer personalized 1-on-1 admissions mentoring service that <br>
-                        will serve as an academic walk-through for students to get <br>
-                        accepted at their dream schools and find best fit universities.
-                    </p>
+                    <div data-aos="fade-right" data-aos-duration="1500">
+                        <h1 class="text-start"> Admissions Mentoring </h1>
+                        <p class="lh-base">
+                            We offer personalized 1-on-1 admissions mentoring service that <br>
+                            will serve as an academic walk-through for students to get <br>
+                            accepted at their dream schools and find best fit universities.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class='col-md-6 p-0 order-md-2 order-1'>
-                <img src="assets/img/admission.webp" class="w-100">
+                <div data-aos="flip-right">
+                    <img src="assets/img/admission.webp" class="w-100">
+                </div>
             </div>
         </div>
 
         <!-- Career Exploration -->
         <div class="row align-items-center">
             <div class='col-md-6 p-0'>
-                <img src="assets/img/career.webp" class="w-100 float-end">
+                <div data-aos="flip-left">
+                    <img src="assets/img/career.webp" class="w-100 float-end">
+                </div>
             </div>
             <div class='col-md-6 p-5'>
                 <div class="p-5">
-                    <h1 class="text-start"> Career Exploration </h1>
-                    <p class="lh-base"> We create programs for students to help them develop <br>
-                        leadership skills, sharpen their mentality and build their <br>
-                        potfolio.</p>
+                    <div data-aos="fade-left" data-aos-duration="1500">
+                        <h1 class="text-start"> Career Exploration </h1>
+                        <p class="lh-base"> We create programs for students to help them develop <br>
+                            leadership skills, sharpen their mentality and build their <br>
+                            potfolio.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,31 +145,39 @@
         <div class="row align-items-center">
             <div class='col-md-6 p-5 order-md-1 order-2'>
                 <div class="p-5">
-                    <h1 class="text-start"> Academic & Test Preparation </h1>
-                    <p class="lh-base">
-                        Develop your personal brand, CV, get Internship, achieve the <br>
-                        high scores necessary for entrance into world's top universities.
-                    </p>
+                    <div data-aos="fade-right" data-aos-duration="1500">
+                        <h1 class="text-start"> Academic & Test Preparation </h1>
+                        <p class="lh-base">
+                            Develop your personal brand, CV, get Internship, achieve the <br>
+                            high scores necessary for entrance into world's top universities.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class='col-md-6 p-0 order-md-2 order-1'>
-                <img src="assets/img/academic.webp" class="w-100">
+                <div data-aos="flip-right">
+                    <img src="assets/img/academic.webp" class="w-100">
+                </div>
             </div>
         </div>
 
         <!-- Career Exploration -->
         <div class="row align-items-center">
             <div class='col-md-6 p-0'>
-                <img src="assets/img/writing.webp" class="w-100 float-end">
+                <div data-aos="flip-left">
+                    <img src="assets/img/writing.webp" class="w-100 float-end">
+                </div>
             </div>
             <div class='col-md-6 p-5'>
                 <div class="p-5">
-                    <h1 class="text-start"> Writing Skills </h1>
-                    <p class="lh-base">
-                        Upgrade your skills in communicating your personal brand for <br>
-                        applying to universities abroad and excelling in the academic & <br>
-                        professional settings.
-                    </p>
+                    <div data-aos="fade-left" data-aos-duration="1500">
+                        <h1 class="text-start"> Writing Skills </h1>
+                        <p class="lh-base">
+                            Upgrade your skills in communicating your personal brand for <br>
+                            applying to universities abroad and excelling in the academic & <br>
+                            professional settings.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -167,44 +190,50 @@
                     <h1 class="mb-5 mt-5"> What people are saying... </h1>
                     <div class="row row-cols-md-3 row-cols-1">
                         <div class="col mb-5">
-                            <img src="assets/img/testimonials-1.jpg" height="150px" class="rounded-circle">
-                            <h1 class="fs-4 mt-3"> Margaret E. </h1>
-                            <p class="lh-base">
-                                "Doing all the Uni essay alone honestly <br>
-                                was really stressful and having someone <br>
-                                to talk to, discuss and evaluate is <br>
-                                definitely a fast pass ticket that makes <br>
-                                the process so much easier."
-                            </p>
+                            <div data-aos="fade-right" data-aos-duration="3000">
+                                <img src="assets/img/testimonials-1.jpg" height="150px" class="rounded-circle">
+                                <h1 class="fs-4 mt-3"> Margaret E. </h1>
+                                <p class="lh-base">
+                                    "Doing all the Uni essay alone honestly <br>
+                                    was really stressful and having someone <br>
+                                    to talk to, discuss and evaluate is <br>
+                                    definitely a fast pass ticket that makes <br>
+                                    the process so much easier."
+                                </p>
+                            </div>
                         </div>
                         <div class="col mb-5">
-                            <img src="assets/img/testimonials-2.jpg" height="150px" class="rounded-circle">
-                            <h1 class="fs-4 mt-3"> Fred S. </h1>
-                            <p class="lh-base">
-                                "I joined the University Application Boot <br>
-                                Camp, and it was really helpful. I got a lot <br>
-                                of tips and guidance that was really <br>
-                                important in terms of making my essay. <br>
-                                The instructor is also really good and <br>
-                                willing to help."
-                            </p>
+                            <div data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000">
+                                <img src="assets/img/testimonials-2.jpg" height="150px" class="rounded-circle">
+                                <h1 class="fs-4 mt-3"> Fred S. </h1>
+                                <p class="lh-base">
+                                    "I joined the University Application Boot <br>
+                                    Camp, and it was really helpful. I got a lot <br>
+                                    of tips and guidance that was really <br>
+                                    important in terms of making my essay. <br>
+                                    The instructor is also really good and <br>
+                                    willing to help."
+                                </p>
+                            </div>
                         </div>
                         <div class="col mb-5">
-                            <!-- <div class="learn"> -->
-                            <img src="assets/img/testimonials-3.jpg" height="150px" class="rounded-circle">
-                            <h1 class="fs-4 mt-3"> Sarah W. </h1>
-                            <p class="lh-base">
-                                "My tutor is very helpful. He made me <br>
-                                enjoy doing SAT questions. They are <br>
-                                challenging, but my tutor was always <br>
-                                ready to assist me. I can't believe I <br>
-                                tackled almost 300 questions in just 4 <br>
-                                days! I'm happy with my progress here."
-                            </p>
+                            <div data-aos="fade-left" data-aos-duration="3000">
+                                < <img src="assets/img/testimonials-3.jpg" height="150px" class="rounded-circle">
+                                    <h1 class="fs-4 mt-3"> Sarah W. </h1>
+                                    <p class="lh-base">
+                                        "My tutor is very helpful. He made me <br>
+                                        enjoy doing SAT questions. They are <br>
+                                        challenging, but my tutor was always <br>
+                                        ready to assist me. I can't believe I <br>
+                                        tackled almost 300 questions in just 4 <br>
+                                        days! I'm happy with my progress here."
+                                    </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -212,18 +241,20 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="col-md-12 text-center">
-                    <h1 class="text-white text fs-2" style="font-family:Arial, Helvetica, sans-serif">Ready to get
-                        started?
-                        Sign up now!</h1>
-                    <div class="row justify-content-center mt-3">
-                        <div class="col-md-5">
-                            <div class="row">
-                                <div class="col-md-8 fs-4"><input type="email" class="form-control"
-                                        placeholder="Email address">
-                                </div>
-                                <div class="col-md-4 fs-4">
-                                    <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-success">Submit</button>
+                    <div data-aos="fade-up" data-aos-duration="1500">
+                        <h1 class="text-white text fs-2" style="font-family:Arial, Helvetica, sans-serif">Ready to get
+                            started?
+                            Sign up now!</h1>
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-8 fs-4"><input type="email" class="form-control"
+                                            placeholder="Email address">
+                                    </div>
+                                    <div class="col-md-4 fs-4">
+                                        <div class="d-grid gap-2">
+                                            <button type="button" class="btn btn-success">Submit</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
