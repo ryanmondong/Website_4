@@ -1,0 +1,34 @@
+#home {
+    background-image: url('../img/bg-masthead.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.text {
+    font-size: 65px;
+}
+
+#info {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contact {
+    background-image: url('../img/bg-masthead.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#footnote {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
